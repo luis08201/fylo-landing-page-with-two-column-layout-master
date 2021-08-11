@@ -602,6 +602,29 @@ body {
   height: 24px;
 }
 
+.footer__attribution {
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.credits {
+  color: #fff;
+}
+
+.credits a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 640ms;
+  transition: 640ms;
+}
+
+.credits a:hover {
+  color: #63f0d8;
+  font-weight: 700;
+  padding: 0 4px;
+}
+
 @media screen and (max-width: 768px) {
   .footer__bigbox {
     -webkit-box-orient: vertical;
