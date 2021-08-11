@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+//PRIMARY COLOR
+$very-dark-blue: #070439;
+$desaturated-blue: #585989;
+
+//ACCENT
+$bright-blue: #3065f8;
+$moderate-cyan: #3c9f8f;
+
+//NEUTRAL
+$light-grayish-blue: #F8F8FE;
+$light-gray: #bfbfbf;
+
+//Typography
+
+// Headings, Call-to-actions, Header Navigation
+$fuente1: "Raleway", sans-serif;
+
+//Body
+$fuente2: "Open Sans", sans-serif;
+
+%margenes {
+  max-width: 1280px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+%botones {
+  width: 180px;
+  height: 44px;
+  background-color: $bright-blue;
+  color: #fff;
+  font-family: $fuente2;
+  border: none;
+  border-radius: 5px;
+  font-size:16px;
+  transition:640ms;
+  &:hover{
+    background-color: #6e94fc;
+    cursor:pointer;
+  }
+}
+%input {
+  width: 100%;
+  padding: 12px;
+}
